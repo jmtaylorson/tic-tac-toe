@@ -2,114 +2,165 @@
 // You can use the namespace variable that's defined here.
 var namespace = "http://www.w3.org/2000/svg"
 var rectcolor = "yellow"
+var clicked1 = "no"
+var clicked2 = "no"
+var clicked3 = "no"
+var clicked4 = "no"
+var clicked5 = "no"
+var clicked6 = "no"
+var clicked7 = "no"
+var clicked8 = "no"
+var clicked9 = "no"
+
+
 function topleft() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("topleftrect")
-rect.setAttribute("fill", "red")
-
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked1=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked1 = "yes"
 }
 
 
+
 }
+
 function topmiddle() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("topmiddlerect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked2=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked2 = "yes"
 }
+
+
 }
+
 function topright() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("toprightrect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked3=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked3 = "yes"
+
 }
+
+
 }
+
 function midleft() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("middleleftrect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked4=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked4 ="yes"
 }
+
+
 }
+
 function mid() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("midrect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked5=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked5 = "yes"
 }
+
+
 }
 function midright() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("midrightrect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked6=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked6 = "yes"
 }
+
 }
 function botleft() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botleftrect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked7=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked7 = "yes"
 }
+
+
 }
+
 function botmiddle() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botmiddlerect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked8=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked8 = "8"
 }
+
+
 }
+
 function botright() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botrightrect")
-rect.setAttribute("fill", "red")
-if(rectcolor=="red") {
-  rect.setAttribute("fill", "yellow")
-  rectcolor = "yellow"
-} else {
-  rect.setAttribute("fill", "red")
-  rectcolor = "red"
+if (clicked9=="no") {
+  if(rectcolor=="red") {
+    rect.setAttribute("fill", "yellow")
+    rectcolor = "yellow"
+  } else {
+    rect.setAttribute("fill", "red")
+    rectcolor = "red"
+  }
+clicked9 = "yes"
 }
+
+
 }
