@@ -12,7 +12,11 @@ var clicked7 = "no"
 var clicked8 = "no"
 var clicked9 = "no"
 
-
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function topleft() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("topleftrect")
@@ -30,7 +34,11 @@ clicked1 = "yes"
 
 
 }
-
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function topmiddle() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("topmiddlerect")
@@ -47,7 +55,11 @@ clicked2 = "yes"
 
 
 }
-
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function topright() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("toprightrect")
@@ -65,7 +77,11 @@ clicked3 = "yes"
 
 
 }
-
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function midleft() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("middleleftrect")
@@ -82,7 +98,11 @@ clicked4 ="yes"
 
 
 }
-
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function mid() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("midrect")
@@ -99,6 +119,11 @@ clicked5 = "yes"
 
 
 }
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function midright() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("midrightrect")
@@ -113,6 +138,11 @@ if (clicked6=="no") {
 clicked6 = "yes"
 }
 
+}
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
 }
 function botleft() {
   var canvas = document.getElementById("game-board")
@@ -130,7 +160,11 @@ clicked7 = "yes"
 
 
 }
-
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function botmiddle() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botmiddlerect")
@@ -147,7 +181,11 @@ clicked8 = "8"
 
 
 }
-
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
+}
 function botright() {
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botrightrect")
@@ -163,4 +201,9 @@ clicked9 = "yes"
 }
 
 
+}
+if (rectcolor=="rebeccapurple") {
+  alert(player1 turn)
+}else {
+  alert(player2 turn)
 }
