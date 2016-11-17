@@ -12,12 +12,13 @@ var clicked7 = "no"
 var clicked8 = "no"
 var clicked9 = "no"
 
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
+
 function topleft() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("topleftrect")
 if (clicked1=="no") {
@@ -34,12 +35,13 @@ clicked1 = "yes"
 
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
+
 function topmiddle() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("topmiddlerect")
 if (clicked2=="no") {
@@ -55,12 +57,13 @@ clicked2 = "yes"
 
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
+
 function topright() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("toprightrect")
 if (clicked3=="no") {
@@ -77,12 +80,13 @@ clicked3 = "yes"
 
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
+
 function midleft() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("middleleftrect")
 if (clicked4=="no") {
@@ -98,12 +102,13 @@ clicked4 ="yes"
 
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
+
 function mid() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("midrect")
 if (clicked5=="no") {
@@ -119,12 +124,12 @@ clicked5 = "yes"
 
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
 function midright() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("midrightrect")
 if (clicked6=="no") {
@@ -139,12 +144,12 @@ clicked6 = "yes"
 }
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
 function botleft() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botleftrect")
 if (clicked7=="no") {
@@ -160,12 +165,13 @@ clicked7 = "yes"
 
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
+
 function botmiddle() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botmiddlerect")
 if (clicked8=="no") {
@@ -181,12 +187,13 @@ clicked8 = "8"
 
 
 }
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
-}
+
 function botright() {
+  if (rectcolor=="rebeccapurple") {
+    alert("player1 turn")
+  }else {
+    alert("player2 turn")
+  }
   var canvas = document.getElementById("game-board")
 var rect = document.getElementById("botrightrect")
 if (clicked9=="no") {
@@ -201,9 +208,4 @@ clicked9 = "yes"
 }
 
 
-}
-if (rectcolor=="rebeccapurple") {
-  alert(player1 turn)
-}else {
-  alert(player2 turn)
 }
